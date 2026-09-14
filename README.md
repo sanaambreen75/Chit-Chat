@@ -43,15 +43,51 @@ Attributes – account number, balance, name, amount, and transaction type
 Methods – functions inside the classes
 Constructors – __init__() is used to initialise objects
 Objects working together – the Customer uses an Account, and Transaction operates on the Account
-How to Run
-Open the Python file in VS Code or Jupyter Notebook.
-Run the program.
+
 The program will create the account and customer.
 It will perform a deposit and withdrawal.
 The final account balance will be displayed.
 What I Learned
 
 I learned how classes and objects can be used to represent real-world situations. I also learned how different classes can work together, such as a customer having an account and transactions changing the account balance.
+
+                                                           
+                                                            
+                                                            
+                                                            
+                                                            STUDENT ATTENDANCE
+
+      This project is a simple Object-Oriented Programming (OOP) program written in Python. It is designed to manage student attendance records and course information.The program allows users to add student records, calculate average attendance, update attendance information, and display all student records.
+
+Features
+
+Generate a unique student ID using Python's random module.
+Add student names, attendance percentages, and course names.
+Store student information in a list.
+Calculate the average attendance of all students.
+Update a student's attendance and course using their student ID.
+Display all student attendance records.
+
+OOP Concepts Used
+
+Class: The Student class represents student records.
+Constructor: __init__() initializes student information.
+Objects: A Student object is created to run the program.
+Methods: Separate methods are used for adding, updating, calculating, and displaying information.
+Lists: studentList stores the student records.
+If/Else Statements: Used for checking conditions such as finding a student and stopping data entry.
+Loops: while and for loops are used to repeatedly enter and process student information.
+
+
+Example
+
+The program asks the user to enter:
+
+Enter student name (or type done to stop): John
+Enter attendance percentage: 85
+Enter course name: Computer Science
+
+After entering all students, the program displays their records and calculates the average attendance.
 
 
 
